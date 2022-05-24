@@ -17,8 +17,8 @@ section{
     display: flex;
     align-items: center;
     /* background: url(./images/banner.png)no-repeat; */
-    background-image: linear-gradient(rgba(0,0,100,0.6),rgba(0,0,100,0.6)), url(./images/20220513_184159.jpg);
-    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,100,0.6),rgba(0,0,100,0.6)), url(./images/IMG-20220320-WA0011.jpg);
+    background-size: contain;
     background-position: center;
     background-attachment: fixed;
 }
