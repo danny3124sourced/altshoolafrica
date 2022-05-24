@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    /* min-height: 150vh; */
+    background: #000016;
+}
+
+
+
+
+header{
+    z-index: 999;
+    position: fixed;
+    background: #fff;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s ease;
+}
+
+header.sticky{
+   background: #3a6cf4;
+   padding: 10px 200px; 
+}
+
+header .brand{
+    color: #000016;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .navigation{
+    position: relative;
+}
+
+header .navigation a{
+    color: #000016;
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+header .navigation a:hover{
+    color: #3a6cf4;
+}
+
+header.sticky .navigation a:hover{
+color: #000;
+}
+
+
+
+
+
+
+.ccc{
+    background: #000016;
+}
+
+
+
+.container{
+   width: 100%;
+   height: 100vh;
+   /* background: blue; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+} 
+
+form{
+   background: #fff;
+   display: flex;
+   flex-direction: column;
+   padding: 2vw 4vw;
+   width: 90%;
+   max-width: 600px;
+   border-radius: 10px;
+} 
+
+form h3{
+   color: #555;
+   font-weight: 800;
+   margin-bottom: 20px;
+}
+form input, form textarea{
+   border: 0;
+   margin: 10px 0;
+   padding: 20px;
+   outline: none;
+   background: #f5f5f5;
+   font-size: 16px;
+}
+
+.cc{
+   margin-left: 5px;
+}
+
+
+/* #country{
+   background: #f5f5f5;
+   border: 0;
+   margin: 10px 0;
+   padding: 20px;
+   outline: none;
+} */
+
+
+input[type=text], select{
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+
+form button{
+   padding: 15px;
+   background: #ff5361;
+   color: #fff;
+   font-size: 18px;
+   border: 0;
+   outline: none;
+   cursor: pointer;
+   width: 150px;
+   margin: 20px auto 0;
+   border-radius: 30px;
+}
+
